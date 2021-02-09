@@ -1,0 +1,16 @@
+[package]
+name = "aurora-rust-helloworld"
+version = "0.1.0"
+authors = ["Shamil Yakupov <syakupov@croc.ru>"]
+edition = "2018"
+description = "Rust example for Aurora OS"
+license = "MIT"
+
+[package.metadata.rpm]
+package = "aurora-rust-helloworld"
+
+[package.metadata.rpm.cargo]
+buildflags = ["--release"]
+
+[package.metadata.rpm.targets]
+aurora-rust-helloworld = { path = "/usr/bin/aurora-rust-helloworld" }

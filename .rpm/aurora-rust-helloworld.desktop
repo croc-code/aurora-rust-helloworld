@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=aurora-rust-helloworld
+Exec=aurora-rust-helloworld
+Name=Rust Hello-World
