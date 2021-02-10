@@ -1,5 +1,7 @@
 # Hello-World App in Rust for Aurora OS
 
+[![Build Status](https://github.com/crocinc/aurora-rust-helloworld/workflows/Build/badge.svg)](https://github.com/crocinc/aurora-rust-helloworld/actions)
+
 This is an example of the simplest application written in Rust to be run on the mobile Aurora OS.
 
 # Prerequisites
